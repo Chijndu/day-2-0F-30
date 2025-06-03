@@ -18,6 +18,19 @@
     padding: 40px 30px 70px;
     border-radius: 10px;
 }
+
+@media (min-width: 350px) {
+  .todoapp{
+    width: 350px;
+    padding: 20px 10px 50px;
+  }
+  input{
+    width: 12px;
+  }
+  button{
+    width: 5px;
+  }
+}
 .todoapp h2{
     color: #002765;
     display: flex;
