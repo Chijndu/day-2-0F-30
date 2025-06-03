@@ -24,6 +24,12 @@
     align-items: center;
     margin-bottom: 20px;
 }
+
+@media (max-width: 500px) {
+  .todoapp{
+      width: 200px
+  }
+}
 .todoapp h2 img{
     width: 30px;
     margin-left: 10px;
